@@ -1,4 +1,4 @@
-#!/workspaces/system180302/.venv/bin/python
+#!/workspaces/system180302/.venv/bin/python3
 import sys
 from watchdog.watchmedo import main
 if __name__ == '__main__':
