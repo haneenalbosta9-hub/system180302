@@ -1,0 +1,39 @@
+# ── Secrets (NEVER commit these) ──────────────────────────────────────────
+.streamlit/secrets.toml
+.streamlit/secrets.toml.save
+
+# ── Editor temp files ──────────────────────────────────────────────────────
+nano.*.save
+*.save
+*.swp
+*.swo
+
+# ── macOS metadata ─────────────────────────────────────────────────────────
+__MACOSX/
+.DS_Store
+._*
+
+# ── Python cache ───────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# ── Generated reports (large, regenerated on demand) ──────────────────────
+reports/
+microbiology_reports/
+
+# ── Auto-backups (keep only in local storage, not git) ────────────────────
+file_backups/
+
+# ── VS Code settings (optional: remove if you want to share them) ──────────
+.vscode/
+.devcontainer/
+
+# ── Debug / diagnostic scripts ────────────────────────────────────────────
+check_report.py
+diagnose_sheet.py
+DATA_LOSS_ANALYSIS.md
+nano.*.save

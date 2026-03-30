@@ -1,12 +1,8 @@
 streamlit
 pandas
 openpyxl
-xlsxwriter
 matplotlib
 gspread
-python-docx
 google-auth
-oauth2client
-numpy
-seaborn
-plotly
+google-auth-oauthlib
+google-auth-httplib2
